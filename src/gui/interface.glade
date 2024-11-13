@@ -3,17 +3,17 @@
 <interface>
   <requires lib="gtk+" version="3.20"/>
   <object class="GtkImage" id="copy_icon">
-    <property name="visible">True</property>
+    <property name="visible">False</property>
     <property name="can-focus">False</property>
     <property name="icon-name">edit-copy</property>
   </object>
   <object class="GtkImage" id="copy_icon_2">
-    <property name="visible">True</property>
+    <property name="visible">False</property>
     <property name="can-focus">False</property>
     <property name="icon-name">edit-copy</property>
   </object>
   <object class="GtkImage" id="copy_icon_3">
-    <property name="visible">True</property>
+    <property name="visible">False</property>
     <property name="can-focus">False</property>
     <property name="icon-name">edit-copy</property>
   </object>
@@ -23,28 +23,28 @@
     <property name="icon-name">edit-copy</property>
   </object>
   <object class="GtkImage" id="csv_icon">
-    <property name="visible">True</property>
+    <property name="visible">False</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">20</property>
     <property name="icon-name">media-floppy</property>
   </object>
   <object class="GtkImage" id="favorite_icon">
-    <property name="visible">True</property>
+    <property name="visible">False</property>
     <property name="can-focus">False</property>
     <property name="icon-name">emblem-favorite</property>
   </object>
   <object class="GtkImage" id="favorite_icon_2">
-    <property name="visible">True</property>
+    <property name="visible">False</property>
     <property name="can-focus">False</property>
     <property name="icon-name">emblem-favorite</property>
   </object>
   <object class="GtkImage" id="favorite_icon_3">
-    <property name="visible">True</property>
+    <property name="visible">False</property>
     <property name="can-focus">False</property>
     <property name="icon-name">emblem-favorite</property>
   </object>
   <object class="GtkImage" id="file_icon">
-    <property name="visible">True</property>
+    <property name="visible">False</property>
     <property name="can-focus">False</property>
     <property name="stock">gtk-file</property>
   </object>
@@ -75,18 +75,18 @@
     </columns>
   </object>
   <object class="GtkImage" id="lure_icon">
-    <property name="visible">True</property>
+    <property name="visible">False</property>
     <property name="can-focus">False</property>
     <property name="pixel-size">20</property>
     <property name="icon-name">audio-card</property>
   </object>
   <object class="GtkImage" id="microphone_icon">
-    <property name="visible">True</property>
+    <property name="visible">False</property>
     <property name="can-focus">False</property>
     <property name="icon-name">audio-input-microphone</property>
   </object>
   <object class="GtkImage" id="microphone_stop_icon">
-    <property name="visible">True</property>
+    <property name="visible">False/property>
     <property name="can-focus">False</property>
     <property name="stock">gtk-media-stop</property>
   </object>
@@ -100,7 +100,7 @@
     <property name="has-resize-grip">True</property>
     <child>
       <object class="GtkBox">
-        <property name="visible">True</property>
+        <property name="visible">False</property>
         <property name="can-focus">False</property>
         <property name="margin-start">25</property>
         <property name="margin-end">25</property>
@@ -111,7 +111,7 @@
         <child>
           <object class="GtkCheckButton" id="enable_mpris_box">
             <property name="label" translatable="yes">Enable MPRIS (display playing song information in the GNOME control panel)</property>
-            <property name="visible">True</property>
+            <property name="visible">False</property>
             <property name="can-focus">True</property>
             <property name="receives-default">False</property>
             <property name="draw-indicator">True</property>
@@ -136,17 +136,17 @@
     <signal name="activate" handler="about_dialog.show" swapped="no"/>
   </object>
   <object class="GtkImage" id="wipe_icon">
-    <property name="visible">True</property>
+    <property name="visible">False</property>
     <property name="can-focus">False</property>
     <property name="icon-name">user-trash-full</property>
   </object>
   <object class="GtkImage" id="youtube_icon">
-    <property name="visible">True</property>
+    <property name="visible">False</property>
     <property name="can-focus">False</property>
     <property name="icon-name">edit-find</property>
   </object>
   <object class="GtkImage" id="youtube_icon_2">
-    <property name="visible">True</property>
+    <property name="visible">False</property>
     <property name="can-focus">False</property>
     <property name="icon-name">edit-find</property>
   </object>
@@ -155,7 +155,7 @@
     <child>
       <object class="GtkImageMenuItem" id="copy_artist_and_track">
         <property name="label" translatable="yes">Copy artist and track</property>
-        <property name="visible">True</property>
+        <property name="visible">False</property>
         <property name="can-focus">False</property>
         <property name="image">copy_icon</property>
         <property name="use-stock">False</property>
@@ -165,7 +165,7 @@
     <child>
       <object class="GtkImageMenuItem" id="copy_artist">
         <property name="label" translatable="yes">Copy artist</property>
-        <property name="visible">True</property>
+        <property name="visible">False</property>
         <property name="can-focus">False</property>
         <property name="image">copy_icon_2</property>
         <property name="use-stock">False</property>
@@ -175,7 +175,7 @@
     <child>
       <object class="GtkImageMenuItem" id="copy_track_name">
         <property name="label" translatable="yes">Copy track name</property>
-        <property name="visible">True</property>
+        <property name="visible">False</property>
         <property name="can-focus">False</property>
         <property name="image">copy_icon_3</property>
         <property name="use-stock">False</property>
@@ -185,7 +185,7 @@
     <child>
       <object class="GtkImageMenuItem" id="copy_album">
         <property name="label" translatable="yes">Copy album</property>
-        <property name="visible">True</property>
+        <property name="visible">False</property>
         <property name="can-focus">False</property>
         <property name="image">copy_icon_4</property>
         <property name="use-stock">False</property>
@@ -195,7 +195,7 @@
     <child>
       <object class="GtkImageMenuItem" id="search_on_youtube">
         <property name="label" translatable="yes">Search on YouTube</property>
-        <property name="visible">True</property>
+        <property name="visible">False</property>
         <property name="can-focus">False</property>
         <property name="image">youtube_icon_2</property>
         <property name="use-stock">False</property>
@@ -205,7 +205,7 @@
     <child>
       <object class="GtkImageMenuItem" id="add_to_favorites">
         <property name="label" translatable="yes">Add to Favorites</property>
-        <property name="visible">True</property>
+        <property name="visible">False</property>
         <property name="can-focus">False</property>
         <property name="image">favorite_icon_2</property>
         <property name="use-stock">False</property>
@@ -215,7 +215,7 @@
     <child>
       <object class="GtkImageMenuItem" id="remove_from_favorites">
         <property name="label" translatable="yes">Remove from Favorites</property>
-        <property name="visible">True</property>
+        <property name="visible">False</property>
         <property name="can-focus">False</property>
         <property name="image">favorite_icon_3</property>
         <property name="use-stock">False</property>
@@ -258,7 +258,7 @@ Contributors https://github.com/marin-m/SongRec/graphs/contributors</property>
     <property name="relative-to">menu_button</property>
     <child>
       <object class="GtkBox">
-        <property name="visible">True</property>
+        <property name="visible">False</property>
         <property name="can-focus">False</property>
         <property name="margin-start">10</property>
         <property name="margin-end">10</property>
@@ -267,7 +267,7 @@ Contributors https://github.com/marin-m/SongRec/graphs/contributors</property>
         <property name="orientation">vertical</property>
         <child>
           <object class="GtkModelButton" id="preferences_menu_button">
-            <property name="visible">True</property>
+            <property name="visible">False</property>
             <property name="can-focus">True</property>
             <property name="receives-default">True</property>
             <property name="text" translatable="yes">Preferences</property>
@@ -282,7 +282,7 @@ Contributors https://github.com/marin-m/SongRec/graphs/contributors</property>
         </child>
         <child>
           <object class="GtkSeparator" id="main_menu_separator">
-            <property name="visible">True</property>
+            <property name="visible">False</property>
             <property name="can-focus">False</property>
           </object>
           <packing>
@@ -293,7 +293,7 @@ Contributors https://github.com/marin-m/SongRec/graphs/contributors</property>
         </child>
         <child>
           <object class="GtkModelButton" id="about_menu_button">
-            <property name="visible">True</property>
+            <property name="visible">False</property>
             <property name="can-focus">True</property>
             <property name="receives-default">True</property>
             <property name="text" translatable="yes">About...</property>
@@ -319,8 +319,8 @@ Contributors https://github.com/marin-m/SongRec/graphs/contributors</property>
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="window-position">center</property>
-    <property name="default-width">977</property>
-    <property name="default-height">497</property>
+    <property name="default-width">1280</property>
+    <property name="default-height">800</property>
     <property name="icon-name">audio-x-generic</property>
     <property name="has-resize-grip">True</property>
     <property name="show-menubar">False</property>
